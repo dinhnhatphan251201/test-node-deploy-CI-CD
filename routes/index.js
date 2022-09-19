@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-    res.render("index", { title: "Express in Heroku" });
+    res.render("index", { title: "Express in Heroku and Jenkins" });
 });
 
 module.exports = router;
